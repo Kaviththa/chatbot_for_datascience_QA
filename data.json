@@ -1,0 +1,94 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can provide you all about, Mechine Learning, Deep Learning and Natural language processing ", "Answering about Mechine Learning, Deep Learning and Natural language processing related questions"],
+         "context": [""]
+        },
+        {"tag": "data science",
+         "patterns": ["What is Data Science?", "Do you know What is Data Science?", "Give me a definition for data science", "define data science","data science" ],
+         "responses": ["Data Science is a combination of algorithms, tools, and machine learning technique which helps you to find common hidden patterns from the given raw data" ],
+         "context": [""]
+        },
+        {"tag": "supervised and unsupervised",
+         "patterns": ["what is the main difference between supervised and unsupervised learning", "Tell me how supervised is different from unsupervised learning ", "supervised vs unsupervised learning" ],
+         "responses": ["Input data is labelled , Input data is unlabelled","Used for prediction, Used for analysis"],
+         "context": [""]
+        },
+        {"tag": "Selection Bias",
+         "patterns": ["What is Selection Bias? ", "Can I know about Selection Bias", "Do you know about Selection Bias", "Tell me about Selection Bias","Selection Bias" ],
+         "responses": ["Selection bias is a kind of error that occurs when the researcher decides who is going to be studied. It is usually associated with research where the selection of participants isn’t random" ],
+         "context": [""]
+        },
+        {"tag": "Types of selection bias",
+         "patterns": ["Types of selection bias ", "What are the types of selection bias ", "List of selection bias include"],
+         "responses": ["Sampling bias, Time interval, data, Attrition"],
+         "context": [""]
+        },
+        {"tag": "bias-variance",
+         "patterns": ["What is bias-variance trade-off?", "what is bias-variance", "Tell me about bias-variance ", "bias-variance" ],
+         "responses": ["Bias is an error introduced in your model due to oversimplification of the machine learning algorithm. It can lead to underfitting , Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs badly on test data set"],
+         "context": [""]
+        },
+        {"tag": "confusion matrix",
+         "patterns": ["What is a confusion matrix?","Tell me about confusion matrix ","confusion matrix"],
+         "responses": ["The confusion matrix is a 2X2 table that contains 4 outputs provided by the binary classifier"],
+         "context": [""]
+        },
+        {"tag": "Normal Distribution",
+         "patterns": ["What do you understand by the term Normal Distribution?", "What is Normal Distribution?", "I want to know about  Normal Distribution", " Define Normal Distribution","what is Gaussian distribution" ],
+         "responses": ["In a normal distribution the mean is zero and the standard deviation is 1. It has zero skew and a kurtosis of 3","A normal distribution is the proper term for a probability bell curve","Normal distributions are symmetrical, but not all symmetrical distributions are normal"],
+         "context": [""]
+        },
+        {"tag": "correlation and covariance ",
+         "patterns": ["What is correlation and covariance in statistics?"," correlation and covariance "],
+         "responses": ["Both Correlation and Covariance establish the relationship and also measure the dependency between two random variables."],
+         "context": [""]
+        },
+        {"tag": "over-fitting and under-fitting",
+         "patterns": ["What are the differences between over-fitting and under-fitting?","what is over-fitting and under-fitting","over-fitting and under-fitting"],
+         "responses": ["Overfitting occurs when a model is excessively complex, such as having too many parameters relative to the number of observations, Underfitting occurs when a statistical model or machine learning algorithm cannot capture the underlying trend of the data"],
+         "context": [""]
+        },
+        {"tag": "regularisation",
+         "patterns": ["What is regularisation ?","Why is regularisation useful?","why regularisation important"],
+         "responses": ["Regularisation is the process of adding tuning parameter to a model to induce smoothness in order to prevent overfitting"],
+         "context": [""]
+        },
+        {"tag": "Machine Learning",
+         "patterns": ["What is Machine Learning?","how you define Machine Learning? ","Machine Learning"],
+         "responses": ["Explores the study and construction of algorithms that can learn from and make predictions on data"],
+         "context": [""]
+        },
+        {"tag": "Supervised Learning",
+         "patterns": ["What is Supervised Learning?","Define Supervised Learning","Supervised Learning"],
+         "responses": ["It is the machine learning task of inferring a function from labeled training data"],
+         "context": [""]
+        },
+        {"tag": "Supervised Learning algorithms",
+         "patterns": ["What are Supervised Learning algorithms?","Example of Supervised Learning algorithms","Tell me some supervised learning algorithms "],
+         "responses": ["Support Vector Machines, Regression, Naive Bayes, Decision Trees, K-nearest Neighbor Algorithm and Neural Networks"],
+         "context": [""]
+        }
+   ]
+}
+
