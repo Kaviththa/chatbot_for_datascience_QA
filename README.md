@@ -1,6 +1,6 @@
 # chatbot_for_datascience_QA
 ## About project 
-The main goal of this project isto develop a chatbot system to answer the data science related questions.
+The main goal of this project is to build a chatbot system to answer the data science related questions by using neural networks and nalural language processing in python.
 ## demo 
 ![Capture-chat](https://user-images.githubusercontent.com/51403241/131832770-2a892f5a-e043-4557-8397-731da9ed4abe.PNG)
 
